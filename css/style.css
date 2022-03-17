@@ -101,3 +101,21 @@ body {
 	color: rgb(255, 196, 142);
 	transform: translateY(-30px);
 }
+
+@media (max-width: 465px) {
+	.container {
+		padding: 20px 20px;
+	}
+	.form-control {
+		position: relative;
+		margin: 20px 0 20px;
+		width: 300px;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+	.btn {
+		padding: 10px;
+	}
+
+}
